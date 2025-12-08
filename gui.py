@@ -54,7 +54,7 @@ except ImportError:
     print("安装命令: pip3 install PyQt5")
     sys.exit(1)
 
-APP_VERSION = "1.0"
+APP_VERSION = "1.1"
 APP_TITLE = f"ECH Workers 客户端 v{APP_VERSION}"
 
 # 复用原有的 ConfigManager, ProcessManager, AutoStartManager
